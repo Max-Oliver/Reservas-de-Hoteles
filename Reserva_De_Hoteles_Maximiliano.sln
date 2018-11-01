@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Acceso de Datos", "Acceso de Datos", "{0A8CD1A3-64E6-4E60-A8D8-8A75A747B87E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logica de Negocios", "Logica de Negocios", "{757E3E4D-51C7-446E-9BC1-0AA0E7761E87}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaz de Usuario", "Interfaz de Usuario", "{D39F53AC-B6FA-4B6A-8DF0-93C91824DAA0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entidades Compartidas", "Entidades Compartidas", "{67C76AF5-7BC5-411F-A030-2909D1A245E7}"
+	ProjectSection(SolutionItems) = preProject
+		Entidades Compartidas\Conexion.cs = Entidades Compartidas\Conexion.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades Compartidas", "Entidades Compartidas\Entidades Compartidas.csproj", "{95AB8327-B0E1-4071-9EEA-E53466EEC518}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logica De Negocios", "ClassLibrary1\Logica De Negocios.csproj", "{0A79C58B-1E4B-4199-A9AB-4E7B3F0A73BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces web", "Interfaces web\Interfaces web.csproj", "{81C3D099-F879-4CD7-B71D-8B1FD002EF4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PersistenciaDATOS", "PersistenciaDATOS", "{44F1FC65-5A0E-4586-B04B-4AA310CCA0AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistenciaDatos", "PersistenciaDatos\PersistenciaDatos.csproj", "{9451DAAE-3160-4179-A4D5-C8FD791A3A4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95AB8327-B0E1-4071-9EEA-E53466EEC518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95AB8327-B0E1-4071-9EEA-E53466EEC518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95AB8327-B0E1-4071-9EEA-E53466EEC518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95AB8327-B0E1-4071-9EEA-E53466EEC518}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A79C58B-1E4B-4199-A9AB-4E7B3F0A73BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A79C58B-1E4B-4199-A9AB-4E7B3F0A73BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A79C58B-1E4B-4199-A9AB-4E7B3F0A73BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A79C58B-1E4B-4199-A9AB-4E7B3F0A73BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81C3D099-F879-4CD7-B71D-8B1FD002EF4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81C3D099-F879-4CD7-B71D-8B1FD002EF4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81C3D099-F879-4CD7-B71D-8B1FD002EF4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81C3D099-F879-4CD7-B71D-8B1FD002EF4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9451DAAE-3160-4179-A4D5-C8FD791A3A4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9451DAAE-3160-4179-A4D5-C8FD791A3A4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9451DAAE-3160-4179-A4D5-C8FD791A3A4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9451DAAE-3160-4179-A4D5-C8FD791A3A4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{67C76AF5-7BC5-411F-A030-2909D1A245E7} = {0A8CD1A3-64E6-4E60-A8D8-8A75A747B87E}
+		{95AB8327-B0E1-4071-9EEA-E53466EEC518} = {67C76AF5-7BC5-411F-A030-2909D1A245E7}
+		{0A79C58B-1E4B-4199-A9AB-4E7B3F0A73BE} = {757E3E4D-51C7-446E-9BC1-0AA0E7761E87}
+		{81C3D099-F879-4CD7-B71D-8B1FD002EF4E} = {D39F53AC-B6FA-4B6A-8DF0-93C91824DAA0}
+		{44F1FC65-5A0E-4586-B04B-4AA310CCA0AC} = {0A8CD1A3-64E6-4E60-A8D8-8A75A747B87E}
+		{9451DAAE-3160-4179-A4D5-C8FD791A3A4D} = {44F1FC65-5A0E-4586-B04B-4AA310CCA0AC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57D3B848-7111-40A9-8A8C-7A05EA7C8F8D}
+	EndGlobalSection
+EndGlobal
