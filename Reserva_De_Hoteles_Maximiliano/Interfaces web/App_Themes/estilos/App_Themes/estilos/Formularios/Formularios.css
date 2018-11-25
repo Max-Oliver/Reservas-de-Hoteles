@@ -1,0 +1,46 @@
+﻿body {
+}
+
+#cabecera {
+    height: 150px;
+    background-color: #FF7800;
+    color: white;
+    border: 1px dashed #a64e06;
+    box-shadow: 0px 0px 10px #000;
+    position: relative;
+    z-index: 2;
+}
+#Titulo {
+    width: 60%;
+    float: right;
+    text-shadow: 2px 2px 3px #000;
+}
+
+#Buscador {
+    height: 50px;
+    background-color:#808080;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 10px #000 inset;
+    text-align: center;
+    display:inline-block;
+    margin-left:30px 20px 20px 30px;
+    padding-top:20px;  
+}
+
+    #Buscador > lblNombreH 
+    {
+        text-align:center;
+        font-style:italic;
+        font-size:12px;
+        color:cornflowerblue;
+    }
+    #Buscador > txtNombreH{
+        margin-left:15px;
+        text-align:center;
+        box-shadow: 0px 0px 10px #000 inset;
+    }
+    #Buscador > btnBuscarH {
+        box-shadow: 2px 2px 5px inset;
+        background-color: darkslategrey;
+        color: white;
+    }
