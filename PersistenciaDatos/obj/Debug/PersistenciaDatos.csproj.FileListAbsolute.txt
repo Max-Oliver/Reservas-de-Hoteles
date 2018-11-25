@@ -1,0 +1,9 @@
+C:\Users\ZoroIsMyMain\Desktop\Proyecto final\Reserva_De_Hoteles_Maximiliano\PersistenciaDatos\bin\Debug\PersistenciaDatos.dll
+C:\Users\ZoroIsMyMain\Desktop\Proyecto final\Reserva_De_Hoteles_Maximiliano\PersistenciaDatos\bin\Debug\PersistenciaDatos.pdb
+C:\Users\ZoroIsMyMain\Desktop\Proyecto final\Reserva_De_Hoteles_Maximiliano\PersistenciaDatos\bin\Debug\Entidades Compartidas.dll
+C:\Users\ZoroIsMyMain\Desktop\Proyecto final\Reserva_De_Hoteles_Maximiliano\PersistenciaDatos\bin\Debug\Entidades Compartidas.pdb
+C:\Users\ZoroIsMyMain\Desktop\Proyecto final\Reserva_De_Hoteles_Maximiliano\PersistenciaDatos\obj\Debug\PersistenciaDatos.csprojAssemblyReference.cache
+C:\Users\ZoroIsMyMain\Desktop\Proyecto final\Reserva_De_Hoteles_Maximiliano\PersistenciaDatos\obj\Debug\PersistenciaDatos.csproj.CoreCompileInputs.cache
+C:\Users\ZoroIsMyMain\Desktop\Proyecto final\Reserva_De_Hoteles_Maximiliano\PersistenciaDatos\obj\Debug\PersistenciaDatos.csproj.CopyComplete
+C:\Users\ZoroIsMyMain\Desktop\Proyecto final\Reserva_De_Hoteles_Maximiliano\PersistenciaDatos\obj\Debug\PersistenciaDatos.dll
+C:\Users\ZoroIsMyMain\Desktop\Proyecto final\Reserva_De_Hoteles_Maximiliano\PersistenciaDatos\obj\Debug\PersistenciaDatos.pdb

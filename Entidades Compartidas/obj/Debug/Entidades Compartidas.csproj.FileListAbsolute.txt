@@ -1,0 +1,6 @@
+C:\Users\ZoroIsMyMain\Desktop\Proyecto final\Reserva_De_Hoteles_Maximiliano\Entidades Compartidas\bin\Debug\Entidades Compartidas.dll
+C:\Users\ZoroIsMyMain\Desktop\Proyecto final\Reserva_De_Hoteles_Maximiliano\Entidades Compartidas\bin\Debug\Entidades Compartidas.pdb
+C:\Users\ZoroIsMyMain\Desktop\Proyecto final\Reserva_De_Hoteles_Maximiliano\Entidades Compartidas\obj\Debug\Entidades Compartidas.csproj.CoreCompileInputs.cache
+C:\Users\ZoroIsMyMain\Desktop\Proyecto final\Reserva_De_Hoteles_Maximiliano\Entidades Compartidas\obj\Debug\Entidades Compartidas.dll
+C:\Users\ZoroIsMyMain\Desktop\Proyecto final\Reserva_De_Hoteles_Maximiliano\Entidades Compartidas\obj\Debug\Entidades Compartidas.pdb
+C:\Users\ZoroIsMyMain\Desktop\Proyecto final\Reserva_De_Hoteles_Maximiliano\Entidades Compartidas\obj\Debug\Entidades Compartidas.csprojAssemblyReference.cache
