@@ -1,0 +1,18 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MasterPages/Index.Master" AutoEventWireup="true" CodeBehind="Administradores.master.cs" Inherits="Interfaces_web.MasterPages.Administradores" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContenidoMenuContextual" runat="server">
+    <ul id="MenuContextual">
+        <li><a href="../PagesAdministradores/ABM_Listados.aspx">Lista de Hoteles</a></li>
+        <li><a href="../PagesAdministradores/ABMHoteles.aspx">Hoteles</a></li>
+        <li><a href="../PagesAdministradores/ABMHabitaciones.aspx"> Habitaciones</a></li>
+        <li><a href="../PagesAdministradores/ConfirmarReservas.aspx">Lista de Reservas</a></li>   
+    </ul>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ContenidoPrincipal" runat="server">
+     <asp:ContentPlaceHolder ID="ContenidoPrincipal" runat="server">                   
+                        
+                  
+      </asp:ContentPlaceHolder>
+
+</asp:Content>

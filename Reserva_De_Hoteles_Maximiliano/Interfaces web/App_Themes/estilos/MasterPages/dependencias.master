@@ -1,0 +1,7 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MasterPages/Index.Master" AutoEventWireup="true" CodeBehind="dependencias.master.cs" Inherits="Interfaces_web.MasterPages.dependencias" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContenidoPrincipal" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceMenu" runat="server">
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder3" runat="server">
+</asp:Content>

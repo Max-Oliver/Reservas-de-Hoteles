@@ -1,0 +1,70 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Index.Master.cs" Inherits="Interfaces_web.MasterPages.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+    <link href="../App_Themes/MasterPage/Estilos2.css" rel="stylesheet"  />
+   
+</head>
+<body >
+    <form id="Index" runat="server">
+        
+            <div id="cabecera">              
+                <div id="ContenidoCabecera"> 
+                    <div id="barraHorizontal">   
+                        <ul>
+                            <li><a href="../PagesCliente/AdministrarClientes.aspx">Clientes</a></li>
+                            <li><a href="../PagesAdministradores/ABM_Listados.aspx">Lista Hoteles</a></li>
+                            <li><a href="../PagesCliente/ListadoResCliente.aspx">Mis Reservas</a></li>
+                            <li><a href="../PagesCliente/Registro_Cliente.aspx">Registro</a></li>                      
+                        </ul>
+                        
+                    </div>
+                    <div id="Logotipo">   
+                        <img src="../App_Themes/estilos/img/user.jpg" alt="Logo_Max" />
+                    </div>               
+                    <div id="Titulo">
+                          <h1> Sus Mejores Opciones..</h1>
+                          <h2>En la Ciudad</h2>
+                    </div>  
+
+                </div><!-- fin contenidocabecera-->
+             
+            </div><!-- fin cabecera-->
+       
+        <div id="ContenidoHolder"> 
+             <div id="ColumnaCentro">   
+                     <asp:ContentPlaceHolder ID="ContenidoPrincipal" runat="server" >   
+                         
+                     </asp:ContentPlaceHolder>
+            </div>
+
+             <div class="ColumnaDer" >
+                <div id="Publicidad">
+                    <img src="../App_Themes/estilos/img/web-ninja.png" alt="Publicidad"  />
+                </div>
+                
+                 <div id="RedesSociales">                 
+                    <img src="../App_Themes/estilos/img/max2.png" alt="Redes Sociales" />
+                    </div>
+            
+                 <div id="ColumnaIzq"  >                                        
+                       <asp:ContentPlaceHolder ID="ContenidoMenuContextual" runat="server">   
+                      
+                       </asp:ContentPlaceHolder>
+                </div>                                      
+                                          
+              <div id="Pie">
+                  <span>Web by - OneByZero</span>
+            </div>
+       
+            </div>        
+    </form>
+</body>
+</html>
