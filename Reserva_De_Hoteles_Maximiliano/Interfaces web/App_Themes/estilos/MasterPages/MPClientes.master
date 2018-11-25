@@ -1,0 +1,25 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MasterPages/Index.Master" AutoEventWireup="true" CodeBehind="MPClientes.master.cs" Inherits="Interfaces_web.PagesCliente.MPClientes" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContenidoMenuContextual" runat="server">   
+    <ul id="MenuContextual">
+        <li><a href="../PagesCliente/AdministrarClientes.aspx">Listado de habitacion </a></li>
+        <li><a href="../PagesCliente/Registro_Cliente.aspx">Registrarse</a></li>
+        <li><a href="../PagesCliente/Listado_Hoteles.aspx">Listar Hoteles</a></li>
+        <li><a href="../PagesCliente/ListadoResCliente.aspx">Mis Reservas</a></li>   
+    </ul>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ContenidoPrincipal" runat="server">
+
+     <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">                   
+                         
+         <div id="Publicidad">
+                     <img src="../App_Themes/estilos/img/web-ninja.png" alt="Publicidad"  />
+                  </div>
+                
+                 <div id="RedesSociales">                 
+                         <img src="../App_Themes/estilos/img/max2.png" alt="Redes Sociales" />
+                    </div>
+        
+   </asp:ContentPlaceHolder>
+</asp:Content>
