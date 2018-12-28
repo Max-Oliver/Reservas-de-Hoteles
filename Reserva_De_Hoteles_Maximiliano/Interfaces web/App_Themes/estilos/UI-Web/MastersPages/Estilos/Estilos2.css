@@ -1,0 +1,226 @@
+﻿body {
+    
+    background-image: url('imgs/Chinos.jpg');
+}
+
+#cabecera{
+    height:150px;
+    background-color:#FF7800;
+    color:white;
+    border: 1px dashed #a64e06;
+    box-shadow:0px 0px 10px #000;
+    position:relative;
+    z-index:2;
+}
+
+#ContenidoCabecera {
+    box-sizing:content-box;
+    width: 1200px;
+    margin: auto;
+}
+
+#barraHorizontal{
+    height:40px;
+    background-color:#a64e06;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow:0px 0px 10px #000 inset;
+    text-align:center;
+}
+
+#barraHorizontal li
+{
+    display:inline-block;
+    padding:5px;
+    cursor:pointer;
+    background-color:#FF7800;
+    color:#a64e06;
+    box-shadow:0px 0px 10px #000 inset;
+}
+
+#Logotipo
+{
+    width:25%;   
+    float:left;
+    text-align:center;
+    margin:5px;
+}
+
+#Logotipo > img
+{
+    box-shadow:0px 0px 10px #000;
+}
+
+#Titulo{
+    width:60%;
+    float:left;
+    text-shadow:2px 2px 3px #000;
+}
+
+#Titulo > h1 
+{
+    margin-top:5px;
+}
+#Titulo > h2
+{
+    margin-top:5px;
+}
+
+#Volver {
+    height:30px;
+    position:relative;
+    top:2em;
+    bottom:2em;
+    z-index:1;
+}
+
+/*#ColumnaDer {
+    float: right;
+    width: 18%;
+    min-height: 500px;
+    height: 912px;
+}
+
+#ColumnaDer > div
+{
+    box-sizing:border-box;
+    width:20rem;
+    height:20rem;
+    border-radius:20px;
+    border:1px dashed #a64e06;
+    color:aqua;
+}
+#ColumnaDer > Publicidad {
+    float:right;
+    width: 180PX;
+    box-sizing:border-box;
+}*/
+
+/*#ColumnaIzq
+{
+    float:left;
+    width:19%;
+    min-height:400px;
+    height: 912px;
+}*/
+
+
+    /*#ColumnaDer > RedesSociales  {
+        width: 100px;
+        height: 100px;       
+    }
+
+    #MenuContextual {
+        position:relative;
+        width:20%;
+        vertical-align:middle;
+
+        list-style-type: none;
+        padding: 0;
+        margin: 30px 0;
+        height: auto;
+}
+    #MenuContextual > li
+    {
+        padding:10px;
+        text-align:center;
+        background-color:#a64e06;
+        color:burlywood;
+        border:1px outset #a64e06;
+        box-shadow:0px 0px 10px #000 inset;
+    /*}
+    #MenuContextual > li > a
+    {
+        text-decoration:none;
+        color:white;
+    }*/
+
+
+#Formulario{
+    width:800px;
+    height:600px;
+
+    position:relative;
+    top:0;
+    left:12em;
+    right:5em;
+    bottom:0;
+    background-color:burlywood;
+    text-decoration-color:cornflowerblue;
+   /* text-align:center;*/
+}
+
+#FormularioHabit {
+    width: 900px;
+    height: 700px;
+    position: relative;
+    top: 0;
+    left: 9em;
+    right: 12em;
+    bottom: 1;
+    background-color: burlywood;
+    text-decoration-color: cornflowerblue;
+    /* text-align:center;*/
+}
+
+#Buscador {
+    position: relative;
+    top: 1em;
+    left: 15em;
+    right: 2em;
+    text-align: center;
+    width: 600px;
+    height: 50px;
+}
+
+#TituloH {
+    padding-left: 8em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 5em;
+    text-align: center;
+    box-sizing: content-box;
+}
+#dgvHotel{
+    position:relative;
+    left:4em;
+    right:4em;
+    bottom:8em;
+    top:2em;
+}
+#index {
+    width:600px;
+    height:400px;
+    background-color:burlywood;
+    position:relative;
+    top:5em;
+    left:20em;
+    bottom:5em;
+    right:0em;
+    text-align:center;
+    z-index:0;
+}
+    
+#ContenidoHolder {
+    position: relative;
+    top:1em;
+    left: 9em;
+    right: 6em;
+    width: 80%;
+    bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    min-height: 500px;
+    background-color: bisque;
+    box-shadow: 0px 0px 5px #000 inset;
+}
+
+#Pie {
+    height: 30px;
+    background-color: #a64e06;
+    border-radius: 0px 0px 20px 20px;
+    clear: both;
+    box-shadow: 0px 0px 5px #000 inset;
+    color:white;
+    text-align:center;
+    padding-top:5px;
+}

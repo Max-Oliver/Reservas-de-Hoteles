@@ -1,0 +1,62 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="IndexUi.master.cs" Inherits="Interfaces_web.UI_Web.MastersPages.IndexUi" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+    <link href="Estilos/Estilos2.css" rel="stylesheet" />
+    <style type="text/css">
+        .auto-style1 {
+            left: 9em;
+            right: -16em;
+            bottom: 29px;
+            height: 85%;
+            width: 88%;
+            top: 1em;
+        }
+        .auto-style2 {
+            height: 164px;
+        }
+    </style>
+</head>
+<body style="width: 1483px; height: 1123px" >
+    <form id="Index" runat="server">
+        
+            <div id="cabecera">              
+                <div id="ContenidoCabecera" class="auto-style2"> 
+                    <div id="barraHorizontal">   
+                        <ul> 
+                            <li><a href="../PagesCliente/AdministrarClientes.aspx">Rigistrarte</a></li>
+                            <li><a href="../PagesAdministradores/ABM_Listados.aspx">Iniciar Session</a></li>
+                            <li><a href="../PagesCliente/ListadoResCliente.aspx">Cerrar Session</a></li>
+                       </ul>
+                        
+                    </div>
+                    <div id="Logotipo">   
+                       <img src="Estilos/imgs/user.jpg"  alt="Logo_Max" />
+                    </div>               
+                    <div id="Titulo">
+                          <h1> Sus Mejores Opciones..</h1>
+                          <h2>En la Ciudad</h2>
+                    </div>  
+
+                </div><!-- fin contenidocabecera-->
+             
+            </div><!-- fin cabecera-->
+        
+       
+          <div id="ContenidoHolder" class="auto-style1">               
+            <asp:ContentPlaceHolder ID="ContenidoPrincipal" runat="server" >   
+               
+            </asp:ContentPlaceHolder>
+         </div>
+       
+    </form>
+            
+</body>
+</html>

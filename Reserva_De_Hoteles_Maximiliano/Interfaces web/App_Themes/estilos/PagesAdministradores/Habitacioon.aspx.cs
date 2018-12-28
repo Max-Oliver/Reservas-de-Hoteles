@@ -18,7 +18,7 @@ namespace Interfaces_web.PagesAdministradores
                     this.LimpioFormulario();
                     this.btnSoloBuscar();
                 }
-            }
+        }
             //Limpio formulario
             public void LimpioFormulario()
             {
@@ -61,7 +61,8 @@ namespace Interfaces_web.PagesAdministradores
 
 
             }
-            public void HabilAlta()
+
+        public void HabilAlta()
             {
                 btnAlta.Enabled = true;
                 btnBaja.Enabled = false;
@@ -81,6 +82,7 @@ namespace Interfaces_web.PagesAdministradores
 
 
             }
+
             public void habilModiBaja()
             {
                 btnAlta.Enabled = false;

@@ -1,31 +1,23 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPages/Index.Master" AutoEventWireup="true" CodeBehind="ABM_Listados.aspx.cs" Inherits="Interfaces_web.PagesAdministradores.ABM_Listados" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/UI-Web/MastersPages/IndexUi.Master" AutoEventWireup="true" CodeBehind="Listar Hoteles.aspx.cs" Inherits="Interfaces_web.UI_Web.Aministradores.Listar_Hoteles" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
-    .auto-style6 {
-        height: 33px;
-        width: 348px;
-    }
-    .auto-style7 {
-        width: 1105px;
-        height: 1122px;
-    }
-</style>
+        .auto-style2 {
+            margin-top: 0px;
+        }
+        .auto-style3 {
+            left: 4em;
+            right: 1.6em;
+            top: 2.2em;
+            bottom: -2em;
+        }
+    </style>
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContenidoMenuContextual" runat="server">
-    <ul id="MenuContextual">
-        <li><a href="../PagesAdministradores/ABM_Listados.aspx">Lista de Hoteles</a></li>
-        <li><a href="../PagesAdministradores/ABMHoteles.aspx">Hoteles</a></li>
-        <li><a href="../PagesAdministradores/ABMHabitaciones.aspx">Habitaciones</a></li>
-        <li><a href="../PagesAdministradores/ConfirmarReservas.aspx">Lista de Reservas</a></li>   
-    </ul>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContenidoPrincipal" runat="server">
 
-</asp:Content>
-<asp:Content ID="Content3" ContentPlaceHolderID="ContenidoPrincipal" runat="server">
-    
-        <h2 style="margin-left: 360px; margin-top: 33px;" class="auto-style6">Listados Hoteles - Habitaciones</h2>
-    <div align id="center" =" Listado" class="auto-style7"> 
+            <h2 style="margin-left: 360px; margin-right: 360px; margin-top: 33px;" class="auto-style6">Listados Hoteles - Habitaciones</h2>
+            <div id="dgvHotel" class="auto-style3"> 
         
-        <asp:GridView ID="dgvHoteles" runat="server" BackColor="White" BorderColor="#336666" BorderStyle="Double" BorderWidth="3px" CellPadding="4" GridLines="Horizontal" OnSelectedIndexChanged="Page_Load" Width="1073px" AutoGenerateColumns="False" Height="268px" style="margin-top: 0px">
+        <asp:GridView ID="dgvHoteles" runat="server" BackColor="White" BorderColor="#336666" BorderStyle="Double" BorderWidth="3px" CellPadding="4" GridLines="Horizontal" OnSelectedIndexChanged="dgv_SelectedIndexChanged" Width="1073px" AutoGenerateColumns="False" Height="268px" CssClass="auto-style2">
             <Columns>
                 <asp:CommandField CancelImageUrl="~/App_Themes/estilos/img/icons.png" SelectText="Ver Habitaciones" ShowSelectButton="True" HeaderText="Habitaciones" />
                 <asp:BoundField DataField="Nombre" HeaderText="Nombre" SortExpression="Nombre" >
@@ -73,7 +65,10 @@
        
 
         <br />
-        <asp:Label align ="center" ID="lblError" runat="server" Text="lblError"></asp:Label>
+                <div align ="center" >
+                     <asp:Label ID="lblError" runat="server" Text="Label Error" Font-Names="Arial" Font-Size="12pt" ForeColor="#FF0066"></asp:Label>
+                </div>
+       
         <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:GridView ID="dgvhabis" runat="server" AutoGenerateColumns="False" BackColor="White" BorderColor="#DEDFDE" BorderStyle="None" BorderWidth="1px" CellPadding="4" Height="247px" style="margin-top: 0px" Width="1073px" ForeColor="Black" GridLines="Vertical" OnRowDeleting="dgvhabis_RowDeleting" OnSelectedIndexChanged="Page_Load" SelectedIndex="1">
@@ -104,5 +99,4 @@
         <br />
         <br />
     </div>
-
 </asp:Content>
