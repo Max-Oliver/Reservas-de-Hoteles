@@ -154,7 +154,7 @@ insert into Reservas(IdHotel ,IdHabitacion    ,IdCliente  ,  Estado , FechaIni	 
 --select * from hotel
 --select * from Reservas
 --Select * from Usuarios
---select * from Habitacion
+-- 
 
 -- `Procedimientos Almacenados --
 
